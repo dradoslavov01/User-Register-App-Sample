@@ -1,0 +1,58 @@
+h1{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.container{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border:2px solid black;
+    text-align: center;
+    width:500px;
+    height:800px;
+    font-family: sans-serif
+    
+}
+.container input{
+    margin-bottom: 10px;
+    font-size:25px;
+    margin-bottom: 50px;
+    border:none;
+    border-bottom:2px solid greenyellow;
+    outline:none;
+
+}
+.container i{
+    font-size: 20px;
+}
+.container button{
+    width: 60%;
+    font-size:20px;
+    padding: 16px;
+    border:none;
+    text-transform: uppercase;
+    background-color: lightblue;
+    color:white;
+}
+.container button:hover{
+    background-color: greenyellow;
+    outline:none;
+    width: 80%;
+    color:black;
+    transition:0.5s;
+}
+.container i.user{
+    font-size:100px;
+
+    margin-top:8px;
+}
+.container p{
+    font-size:18px;
+}
+.container a{
+    text-decoration: none;
+}
+.container a:hover{
+    font-size: 20px;
+}
